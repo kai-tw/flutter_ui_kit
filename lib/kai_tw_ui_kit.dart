@@ -4,4 +4,3 @@
 library;
 
 export 'src/app_info/app_version.dart';
-export 'src/flutter_ui_kit_base.dart';

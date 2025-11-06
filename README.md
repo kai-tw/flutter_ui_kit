@@ -15,24 +15,19 @@ This is a UI kit that shares Flutter components through my projects.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+It's a collection of some common used widgets.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Just use them like other Flutter components.
 
 ```dart
-const like = 'sample';
+class SimpleWidget extends StatelessWidget {
+  const SimpleWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return AppVersion();
+  }
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.

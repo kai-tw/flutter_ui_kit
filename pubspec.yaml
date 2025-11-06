@@ -1,10 +1,10 @@
-name: flutter_ui_kit
-description: A starting point for Dart libraries or applications.
+name: kai_tw_ui_kit
+description: This is a UI kit that shares Flutter components through my projects.
 version: 1.0.0
-#repository: https://github.com/my_org/my_repo
+repository: https://github.com/kai-tw/flutter_ui_kit
 
 environment:
-  sdk: ^3.9.2
+  sdk: ">=3.2.3 <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
